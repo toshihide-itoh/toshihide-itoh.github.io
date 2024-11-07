@@ -54,5 +54,5 @@ layout: default
 
 ## 連絡先
 
-- toshihide.itoh -@- gmail.com （[ご連絡いただくにあたってのお願い](./note_requests_to_contact_me.html)）
+- toshihide.itoh@gmail.com （[ご連絡いただくにあたってのお願い](./note_requests_to_contact_me.html)）
 
