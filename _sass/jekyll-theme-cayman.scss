@@ -29,7 +29,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
 }
@@ -86,12 +86,12 @@ a {
 
   @include large {
     padding: 0.2rem 1rem;
-    // font-size: 0.9em;
+    font-size: 0.9em;
   }
 
   @include medium {
     padding: 0.6rem 0.9rem;
-    font-size: 0.9rem;
+    font-size: 0.5rem;
   }
 
   @include small {
@@ -131,7 +131,7 @@ a {
   margin-bottom: 0.1rem;
 
   @include large {
-    font-size: 2.25rem;
+    font-size: 2.2rem;
   }
 
   @include medium {
@@ -173,17 +173,17 @@ a {
     max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
   }
 
   @include medium {
     padding: 2rem 4rem;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
   }
 
   @include small {
     padding: 2rem 1rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   
   kbd {
@@ -223,7 +223,7 @@ a {
   code {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: $code-text-color;
     background-color: $code-bg-color;
     border-radius: 0.3rem;
@@ -243,7 +243,7 @@ a {
     > code {
       padding: 0;
       margin: 0;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       color: $code-text-color;
       word-break: normal;
       white-space: pre;
@@ -359,15 +359,15 @@ a {
   border-top: solid 1px $hr-border-color;
 
   @include large {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   @include medium {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   @include small {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 }
 
