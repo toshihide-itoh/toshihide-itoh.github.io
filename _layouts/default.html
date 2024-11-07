@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' }}">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    {% include head-custom.html %}
+  </head>
+
+  <body>
+    <header class="page-header" role="banner">
+      <table width="100%"><tr>
+        <td width="180px">
+          <a href="{{ site.options.top_url }}">
+            <img src="{{ site.avatar }}" width='160px' alt="bio-photo">
+          </a>
+        </td>
+        <td>
+          <h1 class="project-name">{{ site.title }}</h1>
+          <h2 class="project-tagline">{{ site.description }}</h2>
+          {% if site.github.show_pages %}
+            <a href="{{ site.options.top_url }}" class="btn">Top</a>
+            <a href="{{ site.options.notes_url }}" class="btn">Notes</a>
+            {% endif %}
+        </td>
+      </tr></table>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-credits">© 2024 Toshihide Itoh</span>
+      </footer>
+    </main>
+  </body>
+</html>

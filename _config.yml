@@ -1,0 +1,10 @@
+title: 伊藤俊英 / Toshihide Itoh, Ph.D.
+description: 独立研究者・研究開発コンサルタント / Independent Researcher・R&D Consultant
+theme: jekyll-theme-cayman
+avatar: /assets/images/avatar-itoh.png
+
+options:
+  show_pages: true
+  top_url: ./index.html
+  notes_url: ./note_contents.html
+  # about_url: ./about.html
