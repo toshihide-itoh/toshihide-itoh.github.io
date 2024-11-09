@@ -41,9 +41,9 @@ layout: default
 
 ## 職歴
 
-- 株式会社日立メディコ CT事業部設計部・計測システムアーキテクト（〜2001年9月）
-- Siemens Healthineers CT-R&D・Chief Scientist（〜2024年7月）
-- 独立研究者 / 研究開発コンサルタント（2024年7月〜）
+- 〜2001年9月: 株式会社日立メディコ CT事業部設計部・計測システムアーキテクト
+- 〜2024年7月: Siemens Healthineers CT-R&D・Chief Scientist
+- 2024年7月〜: 独立研究者 / 研究開発コンサルタント
 
 ## 実績
 
