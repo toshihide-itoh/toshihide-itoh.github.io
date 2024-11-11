@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+    {% include header.html %}
+
+<body>
+    {% include banner.html %}
+
+    <main id="content" class="main-content" role="main">
+
+        <p class="post-title">{{ page.title }}</p>
+        <p class="post-date">{{ page.date | date: "%Y/%m/%d" }}</p>
+
+        {{ content }}
+
+        {% include tags.html %}
+        
+        {% include footer.html %}
+    </main>
+</body>
+</html>

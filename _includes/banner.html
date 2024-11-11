@@ -1,0 +1,14 @@
+<header class="page-header" role="banner">
+    
+    <header class="page-nav">
+        {% if site.options.show_pages %}
+            <a href="{{site.option.base_url}}/{{ site.options.top_url }}" class="btn">top</a>
+            <a href="{{site.option.base_url}}/{{ site.options.bio_url }}" class="btn">bio</a>
+            <a href="{{site.option.base_url}}/{{ site.options.blogs_url }}" class="btn">blog</a>
+            <!-- <a href="{{site.option.base_url}}/{{ site.options.tags_url }}" class="btn">tags</a> -->
+        {% endif %}
+    </header>
+
+    <p class="page-title">{{ site.title }}</p>
+    <p class="page-subtitle">{{ site.description }}</p>
+</header>

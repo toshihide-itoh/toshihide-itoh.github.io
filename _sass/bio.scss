@@ -1,0 +1,71 @@
+
+
+@mixin large {
+    @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+    }
+}
+
+@mixin medium {
+    @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+    }
+}
+
+@mixin small {
+    @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bio-name {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+
+    @include large {
+        font-size: 1.75rem;
+    }
+
+    @include medium {
+        font-size: 1.75rem;
+    }
+
+    @include small {
+        font-size: 1rem;
+    }
+}
+
+.bio-position {
+    @include large {
+        font-size: 1.0rem;
+    }
+
+    @include medium {
+        font-size: 0.5rem;
+    }
+
+    @include small {
+        font-size: 0.5rem;
+    }
+}
+
+.bio-table {
+    border: none;
+    padding: 0 0 0 0;
+    width: 100%;
+}
+
+.bio-tr
+.bio-td {
+    padding: 0 0 0 0;
+    border: none;
+}
+
+.bio-li {
+    margin-left: -1rem;
+}

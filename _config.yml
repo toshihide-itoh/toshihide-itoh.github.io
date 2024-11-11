@@ -1,0 +1,30 @@
+title: Toshihide Itoh
+description: The touch point for the intersection of the sciences
+theme: jekyll-theme-cayman
+lang: us-US
+
+options:
+  show_pages: true
+  urlbase: 
+  top_url: ./index.html
+  blogs_url: ./blogs.html
+  bio_url: ./bio.html
+  tags_url: ./tags.html
+
+bio:
+  name: 伊藤俊英 / Toshihide Itoh, Ph.D.
+  position1: 独立研究者 / Independent Researcher
+  position2: 研究開発コンサルタント / R&D Consultant
+  avatar: /assets/images/avatar-itoh.png
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi : false
+excerpt_separator: "\n"
+incremental: false
+page_excerpts: true

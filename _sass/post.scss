@@ -1,0 +1,92 @@
+.post-date {
+    font-weight: bold;
+    color: $code-text-color;
+    padding-bottom: 1rem;
+
+    @include large {
+        font-size: 1.0rem;
+    }
+    
+    @include medium {
+        font-size: 1.0rem;
+    }
+    
+    @include small {
+        font-size: 0.9rem;
+    }
+}
+
+.post-title {
+    font-weight: bold;
+    color: $section-headings-color;
+
+    @include large {
+        font-size: 2rem;
+    }
+    
+    @include medium {
+        font-size: 2rem;
+    }
+    
+    @include small {
+        font-size: 1.5rem;
+    }
+}
+
+.post-tag {
+    color: $blockquote-text-color;
+    font-size: 0.8rem;
+    text-transform: lowercase;
+
+    .sep {
+        display: none;
+    }
+    strong {
+        margin-inline-end: 10px;
+    }
+}
+
+.post-tag-item {
+    color: $blockquote-text-color;
+    display: inline-block;
+    margin-inline-end: 5px;
+    margin-bottom: 8px;
+    padding: 1px 5px;
+    text-decoration: none;
+    border: 1px solid $blockquote-text-color;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    text-transform: lowercase;
+
+    &:hover {
+        text-decoration: none;
+        background-color: mix(#fff, $blockquote-text-color);
+    }
+}
+
+.archive-title {
+    inherits: false;
+    // font-weight: bold;
+    color: $section-headings-color;
+}
+
+.archive-date {
+    inherits: false;
+    color: $code-text-color;
+    font-size: 0.9rem;
+    // padding-bottom: 1rem;
+}
+
+.archive-excerpt {
+    inherits: false;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: gray;
+    // margin-top: 0rem;
+    // margin-bottom: 1rem;
+}
+
+.archive-index {
+    color: mix(white, black, 25%);
+    font-weight: bold;
+}
