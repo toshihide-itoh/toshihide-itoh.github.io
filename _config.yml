@@ -19,7 +19,7 @@ bio:
 
 tag_archive:
   type: liquid
-#  path: /tags/
+  path: /tags
 
 # Conversion
 markdown: kramdown
