@@ -1,10 +1,10 @@
 title: Toshihide Itoh
-description: The touch point for the intersection of the sciences
+description: The landing point
 theme: jekyll-theme-cayman
 lang: us-US
 
 options:
-  show_pages: true
+  show_pages: false
   urlbase: 
   top_url: ./index.html
   blogs_url: ./blogs.html
