@@ -4,7 +4,7 @@ theme: jekyll-theme-cayman
 lang: us-US
 
 options:
-  show_pages: false
+  show_pages: true
   urlbase: 
   top_url: ./index.html
   blogs_url: ./blogs.html
