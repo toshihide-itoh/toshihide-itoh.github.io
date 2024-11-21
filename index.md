@@ -65,7 +65,7 @@ layout: page
 
 ## 実績
 
-- [Research map](https://researchmap.jp/tnitoh?lang=jp){:target='_blank'}
+- [Research map](https://researchmap.jp/toshihide.itoh?lang=jp){:target='_blank'}
 - [ORCID](https://orcid.org/0000-0002-0283-1225){:target='_blank'}
 
 ## 連絡先
