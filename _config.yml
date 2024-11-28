@@ -16,6 +16,7 @@ bio:
   position1: 独立研究者 / Independent Researcher
   position2: 研究開発コンサルタント / R&D Consultant
   avatar: /assets/images/avatar-itoh.png
+  email: toshihide.itoh@gmail.com
 
 tag_archive:
   type: liquid
