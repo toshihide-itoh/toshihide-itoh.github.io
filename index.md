@@ -1,7 +1,6 @@
 ---
 title: home
 layout: page
-mathjax: true
 ---
 
 <table class="bio-table">
@@ -77,4 +76,3 @@ mathjax: true
 
 - toshihide.itoh@gmail.com
 
-$$ x = f(x) $$
