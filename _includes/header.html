@@ -13,6 +13,12 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
     <link rel="manifest" href="/assets/favicons/site.webmanifest" />
 
+    {% if page.mathjax or site.mathjax %}
+        <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
+        <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
+        <script defer src="{{ "/assets/katex/contrib/auto-render.min.js" | relative_url }}" onload="renderMathInElement(document.body)"></script>
+    {% endif %}
+
     <title>
         {% if page.title %}
             {{ page.title | escape | capitalize }} - {{ site.title }}

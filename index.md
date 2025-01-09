@@ -1,6 +1,7 @@
 ---
 title: home
 layout: page
+mathjax: true
 ---
 
 <table class="bio-table">
