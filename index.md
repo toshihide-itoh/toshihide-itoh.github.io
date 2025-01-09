@@ -75,3 +75,5 @@ layout: page
 ご連絡の際には、具体的なご相談内容のほか、ご希望の条件等もあわせてお知らせください。
 
 - toshihide.itoh@gmail.com
+
+$$ x = f(x) $$
