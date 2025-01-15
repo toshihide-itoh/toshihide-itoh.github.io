@@ -1,5 +1,5 @@
 ---
-title: blogs
+title: notes
 layout: page
 ---
 <h2>{{ page.title | capitalize }}.</h2>

@@ -7,7 +7,7 @@ options:
   show_pages: true
   urlbase: 
   top_url: ./index.html
-  blogs_url: ./blogs.html
+  notes_url: ./notes.html
   bio_url: ./bio.html
   tags_url: ./tags.html
 
